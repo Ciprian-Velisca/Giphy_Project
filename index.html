@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giphy_Project</title>
+    <link rel="stylesheet" href="giphy.css">
+</head>
+<body>
+
+    <div id="body">
+
+        <section id='navbar'>
+            <img src="Image/Giphy_,logo.png" alt="logo"></img>
+            <h1>GIPHY</h1>
+            <a className='active' href='Reactions'>Reactions</a>
+            <a className='active' href='Entertainment'>Entertainment</a>
+            <a className='active' href='Sports'>Sports</a>
+            <a className='active' href='Stickers'>Stickers</a>
+            <a className='active' href='Artists'>Artists</a>
+            <button>Upload</button>
+            <button>Create</button>
+            <a href='logIn' className='login'><span>Log in</span></a>
+        </section>
+    
+        <section id='search'>
+          <input 
+              id="input"
+              placeholder='Search all the GIHs'>
+          </input>
+  
+          <img  src="Image/Search_logo.png"
+                alt="logo"
+                id="search-gif"
+                
+                >
+          </img>
+        </section>
+  
+        <div id="show-gif">
+            <h2 >Here you can see your <strong>GIF</strong> after you press enter</h2>
+        </div>
+
+  
+        <section id="content">
+            <div id="image-content">
+              <img className="giphy-content"
+                    src="Image/giphy_content.jpg"
+                    alt="logo"
+                    style="width: 80%;
+                    border: 3.4px solid #00ff99;
+                    height: auto;
+                    margin-left: 24px;
+                    padding: 12px;
+                    border-radius: 2px"></img>
+            </div>
+          
+            <div className="detail-content">
+              <h2>The GIF Search Engine</h2>
+              <p>
+                GIPHY is the fastest, simplest way to search and share GIFs and stickers across all of your favorite social channels. Enjoy our powerful GIF Keyboard and iMessage extensions that put GIPHY at your fingertips. Spruce up boring conversations with our GIPHY Emoji and GIPHY Text libraries - exclusively available in the mobile app.
+              </p>
+            </div>
+        </section>
+  
+        <footer>
+          <h1>Get our app: - </h1>
+  
+          <div>
+            <img className="apple" 
+                 src="Image/Google Play.png" 
+                 alt="logo"
+                 style="width: 180px;
+                 height: 80px;
+                 padding: 6px;"></img>
+            <img className="google" 
+                 src="Image/app-store.png" 
+                 alt="logo"
+                 style="width: 180px;
+                 height: 80px;
+                 padding: 6px;"></img>
+          </div>
+          
+  
+          <div id='detail'>
+            <span>Privacy</span>
+            <br></br>
+            <span>Termen and condition</span>
+          </div>
+        </footer>
+  
+      </div>
+
+
+    <Script src="script.js"></Script>
+</body>
+</html>
